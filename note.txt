@@ -1,0 +1,18 @@
+# le dom (avec le français)
+
+DOM : document object model 
+
+document
+    -> html
+        -> head
+            -> title
+            -> ...
+        -> body
+            -> h1
+            -> div
+                -> p
+            -> ...
+
+document.querySelector(<string>);
+document.querySelectorAll(<string>);
+
