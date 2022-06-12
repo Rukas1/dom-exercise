@@ -1,6 +1,6 @@
 function getQuizzez() {
     const xhr = new XMLHttpRequest();
-    let requestURL = 'https:/rukas1.github.io/dom-exercise/quizz.json';
+    let requestURL = 'https://rukas1.github.io/dom-exercise/quizz.json';
     xhr.open("GET", requestURL, false);
     xhr.send();
     return JSON.parse(xhr.responseText);
